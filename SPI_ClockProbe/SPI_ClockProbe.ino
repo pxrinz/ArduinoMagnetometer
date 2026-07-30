@@ -57,7 +57,7 @@ void setup() {
   Serial.print(F("SCK frequency: "));
   Serial.print(SPI_CLOCK_HZ / 1000000.0, 2);
   Serial.println(F(" MHz"));
-  Serial.println(F("Probe: SCK=13  MOSI=11  MISO=12  CS=10"));
+  Serial.println(F("Probe: SCK=52  MOSI=51  MISO=50  CS=10"));
   Serial.println(F("Reading WHO_AM_I continuously (expect 0x3D)..."));
   Serial.println();
 }
